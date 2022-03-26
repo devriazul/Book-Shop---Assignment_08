@@ -1,0 +1,33 @@
+section {
+    height: 70px;
+    /* background-color: rgba(255, 166, 0, 0.747); */
+    background-image: linear-gradient(rgb(233, 155, 155), rgb(235, 235, 173));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+section img {
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion {
+    margin: 10px;
+}
+
+footer {
+    height: 70px;
+    background-color: rgba(255, 166, 0, 0.747);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
