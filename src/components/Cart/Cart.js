@@ -25,6 +25,7 @@ const Cart = (props) => {
   const [randomBook, setRandomBook] = useState("");
   return (
     <div className="cart">
+      <h2>My Cart <i className="fa fa-cart-plus"></i></h2>
       <h3>Selected Item: {insideCart.length} Out of 4</h3>
       {insideCart.map((aCart) => (
         <CartInfo key={Math.random()} aCart={aCart}></CartInfo>

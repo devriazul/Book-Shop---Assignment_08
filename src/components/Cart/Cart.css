@@ -5,11 +5,17 @@
     top: 70px;
     margin: 0 auto;
     width: 290px;
-    height: 50vh;
+    height: 80vh;
     border: 1px solid gray;
     box-shadow: 5px 10px #888888;
     border-radius: 10px;
     background-color: antiquewhite;
+}
+
+.cart h2 {
+    margin-top: 5px;
+    text-align: center;
+    color: green;
 }
 
 .cart h3 {
