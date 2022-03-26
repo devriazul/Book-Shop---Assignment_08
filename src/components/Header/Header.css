@@ -1,6 +1,7 @@
 header {
     height: 70px;
-    background-color: rgba(255, 166, 0, 0.747);
+    /* background-color: rgba(255, 166, 0, 0.747); */
+    background-image: linear-gradient(rgb(233, 155, 155), rgb(235, 235, 173));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +14,7 @@ header img {
 
 h1 {
     text-align: center;
-    color: red;
+    color: white;
     margin: 0;
     padding: 0;
 }

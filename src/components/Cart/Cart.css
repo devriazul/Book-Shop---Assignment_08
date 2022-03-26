@@ -33,7 +33,7 @@
 .btn-random,
 .btn-clear {
     width: 160px;
-    background-color: red;
+    background-color: rgb(240, 22, 105);
     border: 1px solid gray;
     color: white;
     padding: 10px;
@@ -46,8 +46,8 @@
 }
 
 .btn-clear {
-    background-color: rgba(255, 166, 0, 0.747);
-    color: black;
+    background-color: rgba(255, 0, 0, 0.747);
+    color: white;
 }
 
 .btn-clear:active {
