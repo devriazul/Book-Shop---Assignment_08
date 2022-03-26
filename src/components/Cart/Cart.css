@@ -1,30 +1,37 @@
 /* this is for cart.js style  */
-.cart{
+
+.cart {
     position: sticky;
     top: 70px;
     margin: 0 auto;
     width: 290px;
-    height: 80vh;
+    height: 50vh;
     border: 1px solid gray;
     border-radius: 10px;
 }
-.cart h3{
+
+.cart h3 {
     margin-top: 5px;
     text-align: center;
 }
-.random-book-name{
+
+.random-book-name {
     text-align: center;
 }
 
+
 /* cart button section work start from here */
-.btn-group{
+
+.btn-group {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.btn-random, .btn-clear{
+
+.btn-random,
+.btn-clear {
     width: 160px;
     background-color: red;
     border: 1px solid gray;
@@ -33,28 +40,34 @@
     border-radius: 5px;
     margin: 10px 0px;
 }
-.btn-random:active{
+
+.btn-random:active {
     background-color: rgb(180, 0, 0);
 }
-.btn-clear{
+
+.btn-clear {
     background-color: rgba(255, 166, 0, 0.747);
     color: black;
-
 }
-.btn-clear:active{
+
+.btn-clear:active {
     background-color: rgba(175, 114, 0, 0.747);
 }
 
+
 /* responsive design start from here * */
-@media only screen and (max-width: 1200px){
+
+@media only screen and (max-width: 1200px) {
     /*Tablets [601px -> 1200px]*/
-    .cart{
+    .cart {
         width: 350px;
         margin: 50px auto;
         position: static;
     }
-    .cart h3{
+    .cart h3 {
         margin-top: 25px;
     }
-    .cart:nth-of-type(2) { order: 1;}
+    .cart:nth-of-type(2) {
+        order: 1;
+    }
 }
