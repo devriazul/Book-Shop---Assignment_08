@@ -17,7 +17,7 @@ const Footer = () => {
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
             <strong>Q. How react Works?</strong><br />
-            React is the most popular front end javascript library to create reactive user interface. React uses virtual DOM instead of regular DOM and when a state is changed by user interaction, it check the virtual DOM where need to change. Then it just replace the part where changes need only. This way react create Single Page Application without reloading the whole page or website.
+            <strong>React</strong> is the most popular front-end Javascript library to create reactive user interface. <strong>React</strong> uses virtual DOM instead of regular DOM, when a state is changed by user interaction, it check the virtual DOM where need to change. Then it just replace the part where changes need only. This way <strong>React</strong> create Single Page Application without reloading the whole page or website and make load time reduce.
             </div>
             </div>
         </div>
@@ -30,9 +30,9 @@ const Footer = () => {
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
             <strong>Q. Difference between props and state:</strong><br />
-            Props is the read only object pass by one component to another component. Props are read only and immutable so it is not possible to modify the props from inside the component.
+            <strong>Props</strong> is the read only object pass by one component to another component. <strong>Props</strong> are read only and immutable so it is not possible to modify the <strong>Props</strong> from inside the component. <strong>Props</strong> can be accessed by the child component. <br /><br />
 
-            Ont the other hand, State is the updatable data structure that can contain data about components and can change according to state changed or user interaction. State is the heart of react component that determines the behavior how the component will render.Props can be accessed by the child component where state cannot be accessed by child components.
+            On the other hand, <strong>State</strong> is the updatable data structure that can contain data about components and can change according to <strong>State</strong> changed or user interaction. <strong>State</strong> is the heart of react component that determines the behavior how the component will render. <strong>State</strong> cannot be accessed by child components.
             </div>
             </div>
         </div>
