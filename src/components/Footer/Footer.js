@@ -32,7 +32,7 @@ const Footer = () => {
             <strong>Q. Difference between props and state:</strong><br />
             Props is the read only object pass by one component to another component. Props are read only and immutable so it is not possible to modify the props from inside the component.
 
-            Ont the other hand, State is the updatable data structure that can contain data about components and can change according to state changed or user interaction. State is the heart of react component that determines the behavior how the component will render.
+            Ont the other hand, State is the updatable data structure that can contain data about components and can change according to state changed or user interaction. State is the heart of react component that determines the behavior how the component will render.Props can be accessed by the child component where state cannot be accessed by child components.
             </div>
             </div>
         </div>
