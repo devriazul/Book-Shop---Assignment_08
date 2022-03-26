@@ -1,3 +1,14 @@
+/* this is only for body style  */
 .body{
     display: flex;
+    flex-direction: row;
+}
+
+/* for responsive design  */
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .body{
+        flex-direction: column;
+        align-items: center;
+    }
 }

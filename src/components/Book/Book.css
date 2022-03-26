@@ -1,3 +1,5 @@
+/* this style is for book.js file  */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,12 +16,14 @@
 }
 
 .single-book img {
-    /* width: 230px; */
-    height: 240px;
     width: 150px;
+    height: 240px;
     border-radius: 15px;
     margin: 5px;
 }
+
+
+/* book info section style start from here  */
 
 .info {
     margin-left: 10px;
